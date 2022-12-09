@@ -1,5 +1,0 @@
-FROM amazoncorretto:19
-COPY ./out/artifacts/CodingChallenge_jar/ /tmp
-COPY ./out/artifacts/CodingChallenge_jar/testfiles /tmp/testfiles
-WORKDIR /tmp
-CMD "bash"
