@@ -10,24 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07e5bf2-59e0-4273-b8de-8bdb09994a63" name="Changes" comment="First working version">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/RankingTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/RankingTableComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/TeamResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/antonplatzoeder/tests/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/inputWithMissingScore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/inputWithNumberInName.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile_backup" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CodingChallenge_jar/CodingChallenge.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CodingChallenge_jar/CodingChallenge.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/FileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/RankingTableCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/antonplatzoeder/tests/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testfiles/input1.txr" beforeDir="false" afterPath="$PROJECT_DIR$/testfiles/input1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670595268816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First working version">
+      <created>1670623706583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670623706583</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

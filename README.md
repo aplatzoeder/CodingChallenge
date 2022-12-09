@@ -9,10 +9,9 @@
 // to do
 
 ### Docker
-1. Open a console at the root folder
+1. Install docker
+2. Open a console at the root folder of my project
 2. Build the docker image using the following command: `docker build -t antonp_codingchallenge .`. When building the 
-image, all test input files (found under the '/CodingChallenge/testfiles' folder) are will be copied into the container at the path '/tmp/testfiles/'  
+image, all test input files (found under the '/CodingChallenge/testfiles' folder) will be copied into the container at the path '/tmp/testfiles/'  
 3. Run the container by executing this command:
 `docker run antonp_codingchallenge /tmp/testfiles/input1.txt`
-
-P.S. All test
