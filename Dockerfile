@@ -2,4 +2,4 @@ FROM amazoncorretto:19
 COPY ./out/artifacts/ /tmp
 COPY ./testfiles/ /tmp/testfiles
 WORKDIR /tmp
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["java","-jar", "CodingChallenge.jar"]

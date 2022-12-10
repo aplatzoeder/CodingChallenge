@@ -10,23 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07e5bf2-59e0-4273-b8de-8bdb09994a63" name="Changes" comment="Improved testing">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CodingChallenge.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/empty.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/inputWithMoreThanTwoTeams.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/inputWithScoreAsDouble.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/inputWithScoreNotInteger.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/validInput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CodingChallenge_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CodingChallenge_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CodingChallenge_jar/CodingChallenge.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/FileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/RankingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/RankingTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/antonplatzoeder/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/antonplatzoeder/tests/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testfiles/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testfiles/inputDifferentCase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testfiles/inputWithMissingScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testfiles/inputWithMissingScore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CodingChallenge.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CodingChallenge.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +83,7 @@
       <recent name="org.span" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.antonplatzoeder.ranking.Main" />
       <module name="CodingChallenge" />
@@ -171,6 +158,8 @@
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="command" value="./testfiles/validInput.txt" />
+          <option name="containerName" value="" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
@@ -192,9 +181,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JUnit.MainTest.missingScore" />
         <item itemvalue="JUnit.MainTest.invalidNumberOfTeams" />
       </list>
@@ -237,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670623912654</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Improved testing">
+      <created>1670676261701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670676261701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

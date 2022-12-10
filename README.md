@@ -22,6 +22,6 @@ Run the jar file
 2. Build the docker image using the following command: `docker build -t antonp_codingchallenge .`. When building the 
 image, all test input files (found under the '/CodingChallenge/testfiles' folder) will be copied into the container at the path '/tmp/testfiles/'  
 3. Run the container by executing this command:
-`docker run antonp_codingchallenge /tmp/testfiles/validInput.txt`
+`docker run antonp_codingchallenge ./testfiles/validInput.txt`
 
 
