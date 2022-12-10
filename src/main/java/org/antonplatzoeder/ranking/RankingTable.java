@@ -1,13 +1,13 @@
 package org.antonplatzoeder.ranking;
 
-import java.util.Map;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 class RankingTable {
     private final SortedSet<Map.Entry<String, Integer>> ranking;
-    public RankingTable(Iterable<Match> matches)
+    public RankingTable(Iterable<Match> matches) throws Exception
     {
+        validateInput(matches);
+
         this.ranking = new TreeSet<>(new RankingTableComparator());
 
         for (Match match: matches) {
@@ -33,6 +33,16 @@ class RankingTable {
         }
 
         return output.toString();
+    }
+
+    private void validateInput(Iterable<Match> matches) throws Exception
+    {
+        if (matches == null)
+            throw new Exception("Expected a list of matches as parameter to the RankingTable.");
+
+        boolean isEmpty = !matches.iterator().hasNext();
+        if (isEmpty)
+            throw new Exception("No matches were played. No ranking could be calculated.");
     }
 
     private void rank(Match match) {
@@ -63,7 +73,7 @@ class RankingTable {
     {
         for (Map.Entry<String, Integer> map: ranking)
         {
-            if (map.getKey().equals(teamName))
+            if (map.getKey().equalsIgnoreCase(teamName))
                 return map;
         }
 

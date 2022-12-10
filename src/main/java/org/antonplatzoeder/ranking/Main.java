@@ -3,15 +3,14 @@ package org.antonplatzoeder.ranking;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println(Runner(args));
+    public static void main(String[] args)  {
+        System.out.println(run(args));
     }
 
-    public static String Runner(String[] args)
-    {
+    public static String run(String[] args) {
         try
         {
-            ValidateArguments(args);
+            validateArguments(args);
             Match[] matches = FileParser.parse(args[0]);
             RankingTable rankingTable = new RankingTable(List.of(matches));
             return rankingTable.toString();
@@ -22,7 +21,7 @@ public class Main {
         }
     }
 
-    private static void ValidateArguments(String[] args) throws Exception {
+    private static void validateArguments(String[] args) throws Exception {
         if (args.length < 1)
             throw new Exception("Expected a filepath as parameter");
     }

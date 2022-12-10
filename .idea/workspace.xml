@@ -9,9 +9,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f07e5bf2-59e0-4273-b8de-8bdb09994a63" name="Changes" comment="First working version">
+    <list default="true" id="f07e5bf2-59e0-4273-b8de-8bdb09994a63" name="Changes" comment="Improved testing">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CodingChallenge.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/empty.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/inputWithMoreThanTwoTeams.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/inputWithScoreAsDouble.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/inputWithScoreNotInteger.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/validInput.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CodingChallenge_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CodingChallenge_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CodingChallenge_jar/CodingChallenge.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/FileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/RankingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/RankingTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/antonplatzoeder/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/antonplatzoeder/tests/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testfiles/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testfiles/inputDifferentCase.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testfiles/inputWithMissingScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testfiles/inputWithMissingScore.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,20 +65,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Anton Platzoeder/IdeaProjects/CodingChallenge/testfiles",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton Platzoeder/IdeaProjects/CodingChallenge/testfiles&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Anton Platzoeder\IdeaProjects\CodingChallenge\testfiles" />
@@ -82,6 +97,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.antonplatzoeder.ranking.Main" />
+      <module name="CodingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.antonplatzoeder.ranking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingChallenge" />
       <extension name="coverage">
@@ -97,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.InputSet1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.invalidNumberOfTeams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +135,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.antonplatzoeder.tests" />
       <option name="MAIN_CLASS_NAME" value="org.antonplatzoeder.tests.MainTest" />
-      <option name="METHOD_NAME" value="InputSet1" />
+      <option name="METHOD_NAME" value="invalidNumberOfTeams" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.InvalidFilePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.missingScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -123,30 +151,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.antonplatzoeder.tests" />
       <option name="MAIN_CLASS_NAME" value="org.antonplatzoeder.tests.MainTest" />
-      <option name="METHOD_NAME" value="InvalidFilePath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.NumberInTeamName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.antonplatzoeder.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.antonplatzoeder.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.antonplatzoeder.tests.MainTest" />
-      <option name="METHOD_NAME" value="NumberInTeamName" />
+      <option name="METHOD_NAME" value="missingScore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CodingChallengeJar" type="JarApplication">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/CodingChallenge_jar/CodingChallenge.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/CodingChallenge.jar" />
+      <option name="PROGRAM_PARAMETERS" value="./testfiles/input1.txt" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Anton Platzoeder\IdeaProjects\CodingChallenge" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -158,15 +171,10 @@
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="containerName" value="" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="CodingChallenge:jar" />
-        </option>
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
@@ -175,20 +183,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="JAR Application.CodingChallengeJar" />
+      <item itemvalue="JUnit.MainTest.invalidNumberOfTeams" />
+      <item itemvalue="JUnit.MainTest.missingScore" />
       <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainTest.InputSet1" />
-      <item itemvalue="JUnit.MainTest.InvalidFilePath" />
-      <item itemvalue="JUnit.MainTest.NumberInTeamName" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="JUnit.MainTest.NumberInTeamName" />
-        <item itemvalue="JUnit.MainTest.InvalidFilePath" />
-        <item itemvalue="JUnit.MainTest.InputSet1" />
+        <item itemvalue="JUnit.MainTest.missingScore" />
+        <item itemvalue="JUnit.MainTest.invalidNumberOfTeams" />
       </list>
     </recent_temporary>
   </component>
@@ -215,21 +223,43 @@
       <option name="project" value="LOCAL" />
       <updated>1670623706583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First working version">
+      <created>1670623866200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670623866200</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated the README">
+      <created>1670623912654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670623912654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated README" />
     <MESSAGE value="First working version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First working version" />
+    <MESSAGE value="Updated Readme" />
+    <MESSAGE value="Updated the README" />
+    <MESSAGE value="Improved testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/antonplatzoeder/tests/MainTest.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
+          <line>90</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/antonplatzoeder/ranking/FileParser.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
